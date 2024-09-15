@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta info  -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Property Guru: Architect Website" />
+    <!-- Title  -->
+    <title>Property Guru</title>
+    <!-- CSS Link  -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- Responsive CSS Link  -->
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <!-- Google fonts CDN  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Getbootstrap Icon CDN Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Font awesome icon CDN link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Swiper CSS CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header>
+      <!-- Navbar  -->
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a href="#"
+              ><p>Property <span>Guru</span></p></a
+            >
+          </div>
+          <div class="nav-menu">
+            <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Location</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="button">
+            <a href="#">Book a Free Visit</a>
+            <i class="plu  fa-solid fa-plus"></i>
+            <i class="ico fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <section class="banner">
+        <div class="container">
+          <div class="row">
+            <h1>Discover Luxury And Comfort In Every Corner</h1>
+            <div class="row-buttons">
+              <a href="#">Learn More</a>
+              <a href="#">Schedule a Viewing</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Complex section  -->
+      <section class="complex">
+        <div class="container">
+          <div class="row">
+            <div class="row-left">
+              <h2>Modern Spaces And Premium Apartment Complexes</h2>
+              <p>Modern spaces and premium apartment complexes</p>
+              <a href="#">Schedule a Viewing</a>
+            </div>
+            <div class="row-right">
+              <figure class="pic1">
+                <img src="./IMG/Rectangle 1.png" alt="pic1" />
+              </figure>
+              <figure class="pic2">
+                <img src="./IMG/Rectangle 2.png" alt="pic2" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Details section  -->
+      <section class="details">
+        <div class="container">
+          <div class="row">
+            <div class="row-1">
+              <div class="property-item">
+                <h3>PROPERTY TYPE</h3>
+                <p><i class="bi bi-house-door"></i>FAMILY HOUSE</p>
+              </div>
+              <div class="property-item">
+                <h3>BEDROOMS</h3>
+                <p><i class="fa-solid fa-bed"></i>X3</p>
+              </div>
+              <div class="property-item">
+                <h3>BATHROOMS</h3>
+                <p><i class="fa-solid fa-bath"></i>X2</p>
+              </div>
+              <div class="property-item">
+                <h3>SIZE</h3>
+                <p><i class="fa-solid fa-maximize"></i>1,900 SQ.FT.</p>
+              </div>
+            </div>
+            <div class="row-2">
+              <div class="items-details">
+                <div class="items">
+                  <div class="property-item">
+                    <p>PARKING SLOTS</p>
+                    <p>2</p>
+                  </div>
+                  <div class="property-item">
+                    <p>GARDEN</p>
+                    <p>10 SQ. FT.</p>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="property-item">
+                    <p>AMENITIES</p>
+                    <p>GYM, SOLAR</p>
+                  </div>
+                  <div class="property-item">
+                    <p>YEAR BUILD</p>
+                    <p>2020</p>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="property-item">
+                    <p>INTERIOR DESIGN</p>
+                    <p>LUCY DE VITO</p>
+                  </div>
+                  <div class="property-item">
+                    <p>POOL</p>
+                    <p>1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Layout section  -->
+      <section class="layout">
+        <div class="container">
+          <h2>Layouts Plan</h2>
+          <div class="row">
+            <div class="row-left">
+              <figure>
+                <img src="./IMG/layout1.png" alt="layout1" />
+              </figure>
+              <!-- Swiper  -->
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./IMG/swp1.png" alt="swiper1" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./IMG/swp2.png" alt="swiper2" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./IMG/swp3.png" alt="swiper3" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./IMG/swp4.png" alt="swiper4" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./IMG/swp1.png" alt="swiper5" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./IMG/swp2.png" alt="swiper6" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./IMG/swp3.png" alt="swiper7" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./IMG/swp4.png" alt="swiper8" />
+                  </div>
+                </div>
+                <div class="swiper-button-next">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="swiper-button-prev">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row-right">
+              <figure>
+                <img src="./IMG/layout2.png" alt="layout2" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial Section  -->
+      <section class="testimonials">
+        <div class="container">
+          <div class="row">
+            <div class="testimonials-head">
+              <h2>Testimonials</h2>
+            </div>
+            <!-- Swiper  -->
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="test-card">
+                    <div class="img-and-name">
+                      <figure>
+                        <img src="./IMG/testimonial.png" alt="testimonial" />
+                      </figure>
+                      <div class="name-and-deg">
+                        <h3>John Doe</h3>
+                        <p>CEO</p>
+                      </div>
+                    </div>
+                    <div class="test-info">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
+                        dapibus leo
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="test-card">
+                    <div class="img-and-name">
+                      <figure>
+                        <img src="./IMG/testimonial.png" alt="testimonial" />
+                      </figure>
+                      <div class="name-and-deg">
+                        <h3>John Doe</h3>
+                        <p>CEO</p>
+                      </div>
+                    </div>
+                    <div class="test-info">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
+                        dapibus leo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="test-card">
+                    <div class="img-and-name">
+                      <figure>
+                        <img src="./IMG/testimonial.png" alt="testimonial" />
+                      </figure>
+                      <div class="name-and-deg">
+                        <h3>John Doe</h3>
+                        <p>CEO</p>
+                      </div>
+                    </div>
+                    <div class="test-info">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
+                        dapibus leo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="test-card">
+                    <div class="img-and-name">
+                      <figure>
+                        <img src="./IMG/testimonial.png" alt="testimonial" />
+                      </figure>
+                      <div class="name-and-deg">
+                        <h3>John Doe</h3>
+                        <p>CEO</p>
+                      </div>
+                    </div>
+                    <div class="test-info">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
+                        dapibus leo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Choose section  -->
+      <section class="choose">
+        <div class="container">
+          <div class="row">
+            <div class="row-left">
+              <img src="./IMG/IMAGE-removebg.png" alt="figure" />
+            </div>
+            <div class="row-right">
+              <h2>Why Choose Us</h2>
+              <h3>Unlock Your Dream Home With Ease</h3>
+              <p>
+                Why Partnering with Us is the Smart Choice for a Seamless
+                Property Buying Experience: Unmatched Expertise, Personalized
+                Service, and Secure Transactions Guaranteed
+              </p>
+              <div class="points">
+                <i class="fa-solid fa-chess-knight"></i>
+                <div class="info">
+                  <h4>Expert Guidance Every Step of the Way</h4>
+                  <p>
+                    Benefit from our team's deep industry knowledge to navigate
+                    the complex property market effortlessly.
+                  </p>
+                </div>
+              </div>
+              <div class="points">
+                <i class="fa-solid fa-mug-hot"></i>
+                <div class="info">
+                  <h4>Interactive Learing Experience</h4>
+                  <p>
+                    Receive personalized property suggestions that align with
+                    your budget, location preferences, and lifestyle needs.
+                  </p>
+                </div>
+              </div>
+              <div class="points">
+                <i class="fa-solid fa-chess-knight"></i>
+                <div class="info">
+                  <h4>Exceptional Support</h4>
+                  <p>
+                    Experience peace of mind with our secure payment options and
+                    transparent dealings, ensuring a hassle-free purchase.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="row-left">
+            <h3>Property Guru</h3>
+            <p>
+              Explore a world of premium properties and experience a seamless
+              home-buying journey with us. From expert guidance to personalized
+              property matches and secure transactions, we've got you covered
+              every step of the way. Thank you for choosing us for your property
+              needs.
+            </p>
+          </div>
+          <div class="row-right">
+            <div class="footer-right">
+              <h3>Company</h3>
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">More Properties</a></li>
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-right">
+              <h3>Resources</h3>
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Property Videos</a></li>
+                  <li><a href="#">Documentation</a></li>
+                  <li><a href="#">Our Certification</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-right">
+              <h3>Help</h3>
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Customer Support</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-breaker"></div>
+        <div class="footer-text">
+          <p>Copyright © 2023</p>
+          <p>Design By Wbify</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper Js  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Layout Swiper  -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          1492: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          349: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          }
+        }
+      });
+    </script>
+    <!-- Initialize Testimonial Swiper  -->
+    <script>
+      var swiper = new Swiper(".mySwiper1", {
+        slidesPerView: 3.5,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          1492: {
+            slidesPerView: 3.5,
+            spaceBetween: 30,
+          },
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 25,
+          },
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          480: {
+            slidesPerView: 1.5,
+            spaceBetween: 10,
+          },
+          349: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          }
+        }
+      });
+    </script> 
+
+
+
+  <!-- Jqurey CDN  -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <!-- Jqurey link  -->
+  <script src="./JS/script.jquery.js"></script>
+  <script src="./JS/toggle.js"></script>
+  </body>
+</html>

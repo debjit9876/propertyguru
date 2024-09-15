@@ -1,0 +1,594 @@
+/*===================== Common Class =======================*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+section,
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 1360px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+/*============================ Navbar ===========================*/
+.navbar {
+  width: 100%;
+  height: 70px;
+  padding-top: 20px;
+  color: #ffff;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navbar .container .logo a p {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+.navbar .container .logo a span {
+  color: #58a9e4;
+}
+.navbar .container .nav-menu ul {
+  display: flex;
+}
+.navbar .container .nav-menu ul li {
+  padding: 0 30px;
+}
+.navbar .container .nav-menu ul li a {
+  font-size: 16px;
+  color: #383423;
+}
+.navbar .container .nav-menu ul li a.active {
+  color: #4f592e;
+  font-weight: 600;
+}
+.navbar .container .nav-menu ul li a:hover {
+  color: #4f592e;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .container .button a {
+  color: #383423;
+  text-decoration: underline;
+}
+.navbar .container .button .plu{
+  color: #383423;
+  display: none;
+}
+.navbar .container .button i{
+  color: #383423;
+  display: none;
+}
+
+/*============================== Hero section ============================*/
+.banner {
+  height: 750px;
+  background: url(../IMG/bck.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .container .row {
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60%;
+  width: 70%;
+}
+.banner .container .row h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 80px;
+  font-weight: 500;
+  color: #ffff;
+  text-align: center;
+}
+.banner .container .row .row-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 55%;
+}
+.banner .container .row .row-buttons a {
+  color: #58a9e4;
+  background-color: #ffff;
+  font-size: 20px;
+  padding: 13px 15px;
+  border: 1px solid #58a9e4;
+  border-radius: 7px;
+}
+.banner .container .row .row-buttons a:hover {
+  background-color: #58a9e4;
+  color: #ffff;
+  box-shadow: 0 0 20px #000;
+  transition: all 0.3s ease-in-out;
+}
+
+/*================================ Complex section ==========================*/
+.complex {
+  height: 800px;
+}
+.complex .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.complex .container .row {
+  width: 100%;
+  justify-content: space-between;
+  height: 100%;
+}
+.complex .container .row .row-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: column;
+  width: 35%;
+  height: 70%;
+}
+.complex .container .row .row-left h2 {
+  font-size: 65px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+}
+.complex .container .row .row-left p {
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+  color: #717171;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.complex .container .row .row-left a {
+  color: #58a9e4;
+  background-color: #ffff;
+  font-size: 16px;
+  padding: 13px 15px;
+  border: 1px solid #58a9e4;
+  border-radius: 7px;
+  width: 41%;
+}
+.complex .container .row .row-left a:hover {
+  color: #ffff;
+  background-color: #58a9e4;
+  box-shadow: 0 0 20px #58a9e4;
+  transition: all 0.3s ease-in-out;
+}
+.complex .container .row .row-right {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.complex .container .row .row-right .pic1 {
+  position: absolute;
+  top: 135px;
+  z-index: 1;
+}
+.complex .container .row .row-right .pic2 {
+  position: absolute;
+  z-index: 2;
+  top: 250px;
+  left: 220px;
+}
+
+/* ======================== Details section =============================== */
+.details {
+  height: 605px;
+  background-color: #58a9e4;
+}
+.details .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details .container .row {
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+.details .container .row .row-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 30px;
+}
+.details .container .row .row-1 .property-item h3 {
+  font-family: "Poppins", sans-serif;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.details .container .row .row-1 .property-item p {
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+}
+.details .container .row .row-1 .property-item i {
+  padding-right: 40px;
+}
+.details .container .row .row-2 {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-direction: row;
+}
+.details .container .row .row-2 .items-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.details .container .row .row-2 .items-details .items {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.details .container .row .row-2 .items-details .items .property-item {
+  width: 45%;
+  height: 50%;
+  border-bottom: 1px solid #ffff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.details .container .row .row-2 .items .property-item p {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: #ffff;
+}
+
+/*=================== Layout section =========================================*/
+.layout {
+  height: 940px;
+}
+.layout .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.layout .container h2 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Cormorant Garamond", serif;
+}
+.layout .container .row {
+  width: 100%;
+  height: 75%;
+  justify-content: space-around;
+}
+.layout .container .row .row-left {
+  width: 55%;
+  height: 100%;
+}
+.layout .container .row .row-left figure {
+  padding-bottom: 15px;
+}
+/* =================== Start of Layout Swipper CSS =================== */
+.layout .container .row .row-left .swiper {
+  width: 80%;
+  height: 20%;
+}
+.layout .container .row .row-left .swiper .swiper-wrapper {
+  height: 100%;
+  position: relative;
+}
+.layout .container .row .row-left .swiper .swiper-slide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.layout .container .row .row-left .swiper .swiper-slide img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.layout .container .row .row-left .swiper .swiper-button-next,
+.layout .container .row .row-left .swiper .swiper-button-prev {
+  color: #000;
+  font-weight: 600;
+  font-size: 50px;
+}
+.layout .container .row .row-left .swiper .swiper-button-next::after,
+.layout .container .row .row-left .swiper .swiper-button-prev::after{
+  content: none;
+}
+/* ==================== End of Layout Swiper CSS ==================== */
+.layout .container .row .row-right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+
+/* ======================== Testimonial Section ================= */
+.testimonials {
+  height: 590px;
+  background-color: #3479ab;
+}
+.testimonials .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials .container .row {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.testimonials .container .row .testimonials-head h2 {
+  font-family: "Cormorant Garamond", serif;
+  color: #ffff;
+  font-size: 70px;
+  font-weight: 400;
+}
+.testimonials .container .row .swiper .swiper-wrapper .test-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+.testimonials .container .row .swiper .swiper-wrapper .test-card .img-and-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.testimonials
+  .container
+  .row
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .test-card
+  .img-and-name
+  figure {
+  padding-right: 15px;
+}
+.testimonials
+  .container
+  .row
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .test-card
+  .img-and-name
+  .name-and-deg
+  h3 {
+  font-family: "Space Mono", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #ffff;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.testimonials
+  .container
+  .row
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .test-card
+  .img-and-name
+  .name-and-deg
+  p {
+  font-family: "Space Mono", sans-serif;
+  font-family: 20px;
+  text-align: center;
+  color: #ffff;
+}
+.testimonials .container .row .swiper .swiper-wrapper .test-card .test-info{
+  background-color: #ffff;
+  border-radius: 10px;
+  height: 55%;
+}
+.testimonials .container .row .swiper .swiper-wrapper .test-card .test-info p{
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  color: #406162;
+  text-align: center;
+}
+/* ====================== Testimonial Swiper CSS ================ */
+.testimonials .container .row .swiper {
+  width: 100%;
+  height: 70%;
+  position: relative;
+}
+.testimonials .container .row .swiper .swiper-wrapper {
+  padding-top: 40px;
+}
+.testimonials .container .row .swiper .swiper-wrapper .swiper-slide {
+  border-radius: 10px;
+  background-color: #58a9e4;
+  box-shadow: 0px 5px 35px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  width: 100%
+}
+.testimonials .container .row .swiper-pagination-bullet{
+  background-color: #000;
+  border-radius: 0;
+}
+.testimonials .container .row .swiper-pagination-bullet-active{
+  background-color: #021d30;
+}
+/*============================== Choose Section ====================== */
+.choose {
+  height: 730px;
+}
+.choose .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choose .container .row {
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.choose .container .row .row-left {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+.choose .container .row .row-left img {
+  filter: drop-shadow(1px 1px 2px #000);
+}
+.choose .container .row .row-right {
+  width: 43%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.choose .container .row .row-right h2 {
+  color: #58a9e4;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.choose .container .row .row-right h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 65px;
+  font-weight: 500;
+}
+.choose .container .row .row-right p {
+  color: #7f8490;
+  padding-bottom: 25px;
+}
+.choose .container .row .row-right .points {
+  display: flex;
+}
+.choose .container .row .row-right .points i {
+  font-size: 28px;
+  padding-right: 25px;
+}
+.choose .container .row .row-right .points .info h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* =========================== Footer =================== */
+.footer {
+  background-color: #034b80;
+  height: 408px;
+}
+.footer .container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .container .row {
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+.footer .container .row-left {
+  width: 30%;
+}
+.footer .container .row-left h3 {
+  color: #ffff;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.footer .container .row-left p {
+  color: #cccc;
+  font-size: 16px;
+}
+.footer .container .row-right {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .container .row-right .footer-right h3 {
+  font-family: "Manrope", sans-serif;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.footer .container .row-right .footer-right ul li {
+  padding-bottom: 10px;
+}
+.footer .container .row-right .footer-right ul li a {
+  font-family: "Manrope", sans-serif;
+  text-decoration: none;
+  color: #cccc;
+  font-size: 16px;
+}
+.footer .container .footer-breaker {
+  content: "";
+  height: 1.5px;
+  width: 85%;
+  background-color: #d4d4d4;
+}
+.footer .container .footer-text {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.footer .container .footer-text p {
+  color: #7f8490;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+}
+
+/* ========================================== End =================================== */
